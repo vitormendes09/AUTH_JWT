@@ -1,0 +1,16 @@
+### Requisição GET para testar a API
+GET http://localhost:3000/ HTTP/1.1
+
+### Teste do endpoint GET /
+GET http://localhost:3000/ HTTP/1.1
+
+### Teste do endpoint POST /auth/register
+POST http://localhost:3000/auth/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "",
+  "email": "vitor@email.com",
+  "password": "123456",
+  "confirmpassword": "123456"
+}

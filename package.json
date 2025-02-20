@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.0",
     "mongoose": "^8.10.1"
   },
   "devDependencies": {
